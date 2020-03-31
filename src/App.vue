@@ -21,6 +21,7 @@ export default class App extends Vue {
     this.setUser(localStorage.tsToken);
   }
 }
+//*********************************************************************** */
 </script>
 
 <style lang="scss">
