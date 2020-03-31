@@ -15,7 +15,7 @@ import { State, Getter, Mutation, Action } from "vuex-class";
   components: {}
 })
 export default class App extends Vue {
-  // 存储用户信息
+  // 存储用户信息啦啦啦啦阿拉拉拉阿拉啦啦啦啦
   @Action("setUser") setUser: any;
   created() {
     this.setUser(localStorage.tsToken);
